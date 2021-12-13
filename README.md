@@ -15,7 +15,7 @@ Babel plugin to inject some custom `import` statement.
             {
                 "inject": [{
                     "name": null,
-                    "path": "style.css",
+                    "path": "./style.css",
                     "file": "src/GanttReact/index.js"
                 },{
                     "name": "test",

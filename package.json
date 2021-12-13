@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-inject-import",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Babel plugin to inject some custom import statement.",
   "main": "lib/index.js",
   "scripts": {
