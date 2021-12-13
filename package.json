@@ -1,0 +1,26 @@
+{
+  "name": "babel-plugin-inject-import",
+  "version": "1.0.0",
+  "description": "Babel plugin to inject some custom import statement.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jkiss/babel-plugin-inject-import.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "import",
+    "inject",
+    "react"
+  ],
+  "author": "Mr.B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkiss/babel-plugin-inject-import/issues"
+  },
+  "homepage": "https://github.com/jkiss/babel-plugin-inject-import#readme"
+}
