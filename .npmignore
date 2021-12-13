@@ -1,0 +1,32 @@
+# source code
+src/
+test/
+bash/
+dist/
+
+# compiler
+webpack.config.js
+webpack.dev.js
+webpack.npm.js
+webpack/
+babel.config.json
+rollup.config.js
+
+# IDE - VSCode
+.vscode
+
+# git official ignore
+node_modules/
+.*.swp
+._*
+.DS_Store
+.git
+.hg
+.npmrc
+.lock-wscript
+.svn
+.wafpickle-*
+config.gypi
+CVS
+npm-debug.log
+.npmignore

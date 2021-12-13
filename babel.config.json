@@ -1,0 +1,24 @@
+{
+    "presets": [
+        [
+            "@babel/env",
+            {
+                "targets": {
+                    "node": "12"
+                },
+                "useBuiltIns": "usage",
+                "corejs": "3.6.5"
+            }
+        ]
+    ],
+    "plugins": [
+        [
+            "transform-remove-console", 
+            { 
+                "exclude": ["error", "warn"]
+            }
+        ],
+        "@babel/plugin-transform-spread"
+    ],
+    "comments": false
+}

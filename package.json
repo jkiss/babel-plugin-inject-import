@@ -2,9 +2,10 @@
   "name": "babel-plugin-inject-import",
   "version": "1.0.0",
   "description": "Babel plugin to inject some custom import statement.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lib": "rm -rf lib/* && npx babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/jkiss/babel-plugin-inject-import/issues"
   },
-  "homepage": "https://github.com/jkiss/babel-plugin-inject-import#readme"
+  "homepage": "https://github.com/jkiss/babel-plugin-inject-import#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-spread": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/runtime": "^7.16.3",
+    "babel-plugin-transform-remove-console": "^6.9.4"
+  }
 }
